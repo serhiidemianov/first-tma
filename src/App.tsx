@@ -7,9 +7,9 @@ import WebApp from '@twa-dev/sdk'
 function App() {
   const [count, setCount] = useState(0)
 
-  return (
-    WebApp.showAlert('Hello world!');
+  WebApp.showAlert('Hello world!');
 
+  return (
     <>
       <div>
         <a href="https://vitejs.dev" target="_blank">
